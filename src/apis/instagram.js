@@ -6,7 +6,8 @@ const BASE = 'https://graph.facebook.com/v19.0';
 class InstagramAPI {
   constructor() {
     this.accountId = process.env.INSTAGRAM_BUSINESS_ACCOUNT_ID;
-    this.token = process.env.INSTAGRAM_ACCESS_TOKEN;
+    this.token = process.env.META_ACCESS_TOKEN;
+
   }
 
   isConfigured() {

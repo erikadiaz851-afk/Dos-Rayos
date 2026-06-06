@@ -10,7 +10,7 @@ class AIService {
 
   async _call(prompt, maxTokens = 1500) {
     const res = await ai.messages.create({
-      model: 'claude-sonnet-4-20250514',
+      model: 'claude-sonnet-4-5',
       max_tokens: maxTokens,
       messages: [{ role: 'user', content: prompt }],
     });
